@@ -43,9 +43,9 @@
 - (void)loadViewsController {
   DeliciousViewController* delicious = [[DeliciousViewController alloc] init];
   UINavigationController* deliciousNC = [[UINavigationController alloc] initWithRootViewController:delicious];
+  UIImage* image = [UIImage imageNamed:@"meishi"];
   UITabBarItem* deliciousItem =
-      [[UITabBarItem alloc] initWithTabBarSystemItem:UITabBarSystemItemBookmarks
-                                                 tag:0];
+      [[UITabBarItem alloc] initWithTitle:@"美食" image:image tag:0];
   deliciousNC.tabBarItem = deliciousItem;
   [deliciousNC.navigationBar setBackgroundColor:[UIColor greenColor]];
   [deliciousNC.navigationBar setBarStyle:UIBarStyleBlackTranslucent];
@@ -54,15 +54,13 @@
   
   FavoriteViewController* favorite = [[FavoriteViewController alloc] initWithNibName:@"FavoriteViewController" bundle:[NSBundle mainBundle]];
   UINavigationController* favoriteNC = [[UINavigationController alloc] initWithRootViewController:favorite];
-  UITabBarItem* favoriteItem = [[UITabBarItem alloc] initWithTabBarSystemItem:UITabBarSystemItemFavorites tag:1];
+  UITabBarItem* favoriteItem = [[UITabBarItem alloc] initWithTitle:@"收藏" image:image tag:1];
   favoriteNC.tabBarItem = favoriteItem;
   
   AccountViewController* account = [[AccountViewController alloc] initWithNibName:@"AccountViewController" bundle:[NSBundle mainBundle]];
   UINavigationController* accountNC = [[UINavigationController alloc] initWithRootViewController:account];
-  UITabBarItem* accountItem = [[UITabBarItem alloc] initWithTabBarSystemItem:UITabBarSystemItemRecents tag:2];
+  UITabBarItem* accountItem = [[UITabBarItem alloc] initWithTitle:@"我" image:image tag:0];
   accountNC.tabBarItem = accountItem;
-  
-//  NSArray *controllersArray = @[deliciousNC, favoriteNC, accountNC];
   
   [self setViewControllers:@[deliciousNC, favoriteNC, accountNC] animated:YES];
 }
