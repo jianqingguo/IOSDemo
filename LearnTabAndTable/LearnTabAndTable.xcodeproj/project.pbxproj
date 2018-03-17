@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D30419A0205CD42B002C4929 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D304199E205CD42B002C4929 /* MainViewController.m */; };
+		D30419A1205CD42B002C4929 /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D304199F205CD42B002C4929 /* MainViewController.xib */; };
+		D30419A5205CD814002C4929 /* DeliciousViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D30419A3205CD814002C4929 /* DeliciousViewController.m */; };
+		D30419A6205CD814002C4929 /* DeliciousViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D30419A4205CD814002C4929 /* DeliciousViewController.xib */; };
+		D30419AA205CE0C1002C4929 /* BillFareViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D30419A8205CE0C1002C4929 /* BillFareViewController.m */; };
+		D30419AB205CE0C1002C4929 /* BillFareViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D30419A9205CE0C1002C4929 /* BillFareViewController.xib */; };
+		D30419B0205CF2EC002C4929 /* BillFareCellTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D30419AE205CF2EC002C4929 /* BillFareCellTableViewCell.m */; };
+		D30419B1205CF2EC002C4929 /* BillFareCellTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D30419AF205CF2EC002C4929 /* BillFareCellTableViewCell.xib */; };
 		D3BDB788205CC59E00D41715 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D3BDB787205CC59E00D41715 /* AppDelegate.m */; };
 		D3BDB78B205CC59E00D41715 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D3BDB78A205CC59E00D41715 /* ViewController.m */; };
 		D3BDB78E205CC59E00D41715 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3BDB78C205CC59E00D41715 /* Main.storyboard */; };
@@ -16,6 +24,18 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D304199D205CD42B002C4929 /* MainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		D304199E205CD42B002C4929 /* MainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		D304199F205CD42B002C4929 /* MainViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
+		D30419A2205CD814002C4929 /* DeliciousViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DeliciousViewController.h; sourceTree = "<group>"; };
+		D30419A3205CD814002C4929 /* DeliciousViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DeliciousViewController.m; sourceTree = "<group>"; };
+		D30419A4205CD814002C4929 /* DeliciousViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DeliciousViewController.xib; sourceTree = "<group>"; };
+		D30419A7205CE0C1002C4929 /* BillFareViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BillFareViewController.h; sourceTree = "<group>"; };
+		D30419A8205CE0C1002C4929 /* BillFareViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BillFareViewController.m; sourceTree = "<group>"; };
+		D30419A9205CE0C1002C4929 /* BillFareViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BillFareViewController.xib; sourceTree = "<group>"; };
+		D30419AD205CF2EC002C4929 /* BillFareCellTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BillFareCellTableViewCell.h; sourceTree = "<group>"; };
+		D30419AE205CF2EC002C4929 /* BillFareCellTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BillFareCellTableViewCell.m; sourceTree = "<group>"; };
+		D30419AF205CF2EC002C4929 /* BillFareCellTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BillFareCellTableViewCell.xib; sourceTree = "<group>"; };
 		D3BDB783205CC59E00D41715 /* LearnTabAndTable.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LearnTabAndTable.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D3BDB786205CC59E00D41715 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		D3BDB787205CC59E00D41715 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -39,6 +59,33 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D304199C205CD411002C4929 /* ui */ = {
+			isa = PBXGroup;
+			children = (
+				D30419AC205CF2B9002C4929 /* bill_fare */,
+				D304199D205CD42B002C4929 /* MainViewController.h */,
+				D304199E205CD42B002C4929 /* MainViewController.m */,
+				D304199F205CD42B002C4929 /* MainViewController.xib */,
+				D30419A2205CD814002C4929 /* DeliciousViewController.h */,
+				D30419A3205CD814002C4929 /* DeliciousViewController.m */,
+				D30419A4205CD814002C4929 /* DeliciousViewController.xib */,
+				D30419A7205CE0C1002C4929 /* BillFareViewController.h */,
+				D30419A8205CE0C1002C4929 /* BillFareViewController.m */,
+				D30419A9205CE0C1002C4929 /* BillFareViewController.xib */,
+			);
+			path = ui;
+			sourceTree = "<group>";
+		};
+		D30419AC205CF2B9002C4929 /* bill_fare */ = {
+			isa = PBXGroup;
+			children = (
+				D30419AD205CF2EC002C4929 /* BillFareCellTableViewCell.h */,
+				D30419AE205CF2EC002C4929 /* BillFareCellTableViewCell.m */,
+				D30419AF205CF2EC002C4929 /* BillFareCellTableViewCell.xib */,
+			);
+			path = bill_fare;
+			sourceTree = "<group>";
+		};
 		D3BDB77A205CC59E00D41715 = {
 			isa = PBXGroup;
 			children = (
@@ -58,6 +105,7 @@
 		D3BDB785205CC59E00D41715 /* LearnTabAndTable */ = {
 			isa = PBXGroup;
 			children = (
+				D304199C205CD411002C4929 /* ui */,
 				D3BDB786205CC59E00D41715 /* AppDelegate.h */,
 				D3BDB787205CC59E00D41715 /* AppDelegate.m */,
 				D3BDB789205CC59E00D41715 /* ViewController.h */,
@@ -129,9 +177,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D30419A6205CD814002C4929 /* DeliciousViewController.xib in Resources */,
 				D3BDB793205CC59E00D41715 /* LaunchScreen.storyboard in Resources */,
 				D3BDB790205CC59E00D41715 /* Assets.xcassets in Resources */,
+				D30419B1205CF2EC002C4929 /* BillFareCellTableViewCell.xib in Resources */,
 				D3BDB78E205CC59E00D41715 /* Main.storyboard in Resources */,
+				D30419A1205CD42B002C4929 /* MainViewController.xib in Resources */,
+				D30419AB205CE0C1002C4929 /* BillFareViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -142,9 +194,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D30419B0205CF2EC002C4929 /* BillFareCellTableViewCell.m in Sources */,
+				D30419A5205CD814002C4929 /* DeliciousViewController.m in Sources */,
 				D3BDB78B205CC59E00D41715 /* ViewController.m in Sources */,
 				D3BDB796205CC59E00D41715 /* main.m in Sources */,
 				D3BDB788205CC59E00D41715 /* AppDelegate.m in Sources */,
+				D30419A0205CD42B002C4929 /* MainViewController.m in Sources */,
+				D30419AA205CE0C1002C4929 /* BillFareViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
